@@ -2,5 +2,5 @@
 ## 项目结构
 * 不同的体系或平台框架用独立的目录
 * /{platform}/path.md 中记录学习路径学习资源
-* /{platform}/QA.md 中记录遇到的问题及答案
+* /{platform}/QA.md 中可抛出问题或解答问题
 * /resource 中存放文件资源
