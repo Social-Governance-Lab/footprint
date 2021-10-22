@@ -1,7 +1,7 @@
 # Q&A
 ## 存储抵押机制 (CFS, collateral for storage)
 
-#### 为何世界状态中的存储条目被更改和删除时，将返还旧所有者抵押的资产？
+#### Q: 为何世界状态中的存储条目被更改和删除时，将返还旧所有者抵押的资产？
 
 链上原有状态是否还可追溯，记录变更所需的空间不需要支付吗？
 
@@ -18,6 +18,7 @@
 
 ### 账户
 
-#### 未理解：账户 `basic` 部分中的 `stakingBalance` 字段
-> `stakingBalance`: A scalar value equal to the number of Drip staked.<br>
+#### Q: 未理解账户 `basic` 部分中的字段
+> `nonce`: A scalar counter recording the number of previous activities initiated by this account. For example, the number of transactions send from account's address, or the number of contract-creations if the account represents a smart contract.<br>
+`stakingBalance`: A scalar value equal to the number of Drip staked.<br>
 [Basics-Account](https://developer.confluxnetwork.org/introduction/en/conflux_basics#account)
