@@ -21,4 +21,11 @@
 #### Q: 未理解账户 `basic` 部分中的字段
 > `nonce`: A scalar counter recording the number of previous activities initiated by this account. For example, the number of transactions send from account's address, or the number of contract-creations if the account represents a smart contract.<br>
 `stakingBalance`: A scalar value equal to the number of Drip staked.<br>
-[Basics-Account](https://developer.confluxnetwork.org/introduction/en/conflux_basics#account)
+[Basics - Account](https://developer.confluxnetwork.org/introduction/en/conflux_basics#account)
+
+#### A:
+`stakingBalance`: 用户可通过内置合约(Internal Contracts) `Staking Contract` 抵押一部分货币获取链上治理权限，并可获得利息，`stakingBalance` 即抵押数额
+> By locking the staking balance, the user can obtain vote power for further on-chain governance.<br>
+[Staking Contract - Locking and Voting Power](https://developer.confluxnetwork.org/conflux-rust/internal_contract/internal_contract#locking-and-voting-power)<br>
+he annualized staking interest rate is currently set to 4.08%.<br>
+[Staking Contract - Interest Rate](https://developer.confluxnetwork.org/conflux-rust/internal_contract/internal_contract#interest-rate)
